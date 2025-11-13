@@ -1,0 +1,24 @@
+ip adress 192.168.1.25/24
+Nmap scan report for 192.168.1.23
+Host is up (0.011s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+80/tcp   open  http 
+3306/tcp open  mysql
+80/tcp  open   http
+443/tcp open   https
+
+services in this open ports
+
+80/tcp  HTTP -Web Server
+443/tcp HTTPS-Secure Web Server
+3306/tcp MySQL-Database Server
+
+potentiol security risk 
+1. Unauthorized Access
+2. Information Leakage
+3. Exploitation of Vulnerabilities
+4. Network Mapping by Attackers
+5. Data Breaches
+6. Denial-of-Service (DoS) Attacks
+7. Pivot Points for Further Attacks
